@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 class Main1 {
     public static void main(String[] args) {
-        int a, b, c;
+        double a, b, c;
         System.out.println("Введите стороны треугольника через пробел");
 
         Scanner s = new Scanner(System.in);
-        a = s.nextInt();
-        b = s.nextInt();
-        c = s.nextInt();
+        a = s.nextDouble();
+        b = s.nextDouble();
+        c = s.nextDouble();
 
         if (a < b + c && b < a + c && c < a + b) {
 
