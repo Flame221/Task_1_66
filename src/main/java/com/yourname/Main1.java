@@ -26,7 +26,7 @@ class Main1 {
             System.out.println("Треугольник прямоугольный");
         }
         if (a == b && b == c) {
-            System.out.println("Треугольник равнобедренный");
+            System.out.println("Треугольник равносторонний");
         }
     }
 }
