@@ -19,14 +19,15 @@ class Main1 {
             System.out.println("Такого треугольника не существует");
             return;
         }
-        if (a == b || a == c || b == c) {
-            System.out.println("Треугольник равнобедренный");
-        }
+
         if (b * b == a * a + c * c || a * a == c * c + b * b || c * c == a * a + b * b) {
             System.out.println("Треугольник прямоугольный");
         }
         if (a == b && b == c) {
             System.out.println("Треугольник равносторонний");
+
         }
+        else if (a == b || a == c || b == c) {
+            System.out.println("Треугольник равнобедренный");}
     }
 }

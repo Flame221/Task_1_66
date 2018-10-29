@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        int a, b, c, d;
+        double a, b, c, d;
         System.out.println("Решение квадратного уровнения ax^2 + bx + c = 0");
         System.out.println("Введите значение а, b и c");
         Scanner s = new Scanner(System.in);
-        a = s.nextInt();
-        b = s.nextInt();
-        c = s.nextInt();
+        a = s.nextDouble();
+        b = s.nextDouble();
+        c = s.nextDouble();
         d = b * b - 4 * a * c;
         if (d > 0) {
             double x1, x2;
